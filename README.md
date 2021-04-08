@@ -1,5 +1,5 @@
-# Youtube-concept-учебный проэкт GloAcademy
-проeкт делает Dima Safonov
+# Youtube-concept-учебный проект GloAcademy
+проект делает Dima Safonov
 
 ## Используемые технологии
 - HTML

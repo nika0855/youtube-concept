@@ -1,9 +1,9 @@
 # Youtube-concept-учебный проэкт GloAcademy
-проэкт делает Dima Safonov
+проeкт делает Dima Safonov
 
-##Используемые технологии
--HTML
--CSS
--SASS
--SVG Sprite
--Bootstrap-reboot.min
+## Используемые технологии
+- HTML
+- CSS
+- SASS
+- SVG Sprite
+- Bootstrap-reboot.min

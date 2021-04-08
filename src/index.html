@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MyYouTube</title>
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+    <link rel="stylesheet" href="css/icon-web.css" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <button class="btn menu-button">
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+        <span class="menu-line"></span>
+      </button>
+      <img src="img/logo.svg" alt="YouTobe logo" class="logo" />
+      <div class="input-group">
+        <input
+          type="search"
+          name="search"
+          class="input-search"
+          placeholder="Search"
+        />
+        <button type="submit" class="button-search">
+         
+          <svg class="icon icon-search" width="19" height="19">
+            <use xlink:href="img/icons.svg#Shape"></use>
+          </svg>
+        </button>
+      </div>
+
+     <div class="icons">
+        <a href="#" class="icons-link">
+          </svg>
+            <svg class="icon icon-video" width="27" height="20">
+              <use xlink:href="img/icons.svg#video"></use>
+            </svg>
+        </a>
+
+        <a href="#" class="icons-link">
+          </svg>
+            <svg class="icon icon-apps" width="21" height="21">
+              <use xlink:href="img/icons.svg#apps"></use>
+            </svg>
+        </a>
+
+         <a href="#" class="icons-link">
+          </svg>
+            <svg class="icon icon-notifications" width="22" height="26">
+              <use xlink:href="img/icons.svg#notifications"></use>
+            </svg>
+        </a>
+     </div>
+      <!-- <div class="icons">
+        <a href="#" class="icons-link">
+          <svg
+            width="27"
+            height="20"
+            viewBox="0 0 16 16"
+            class="bi bi-camera-video"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.667 3.5c-.645 0-1.167.522-1.167 1.167v6.666c0 .645.522 1.167 1.167 1.167h6.666c.645 0 1.167-.522 1.167-1.167V4.667c0-.645-.522-1.167-1.167-1.167H2.667zM.5 4.667C.5 3.47 1.47 2.5 2.667 2.5h6.666c1.197 0 2.167.97 2.167 2.167v6.666c0 1.197-.97 2.167-2.167 2.167H2.667A2.167 2.167 0 0 1 .5 11.333V4.667z"
+            />
+            <path
+              fill-rule="evenodd"
+              d="M11.25 5.65l2.768-1.605a.318.318 0 0 1 .482.263v7.384c0 .228-.26.393-.482.264l-2.767-1.605-.502.865 2.767 1.605c.859.498 1.984-.095 1.984-1.129V4.308c0-1.033-1.125-1.626-1.984-1.128L10.75 4.785l.502.865z"
+            />
+          </svg>
+        </a>
+        <a href="#" class="icons-link">
+          <svg width="21" height="21" viewBox="0 0 16 16" class="bi bi-grid-3x3-gap-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+  <path d="M1 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V2zM1 7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V7zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1V7zM1 12a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1v-2zm5 0a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v2a1 1 0 0 1-1 1h-2a1 1 0 0 1-1-1v-2z"/>
+</svg>
+        </a>
+        <a href="#" class="icons-link">
+          <svg
+            width="22"
+            height="26"
+            viewBox="0 0 16 16"
+            class="bi bi-bell"
+            fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2z" />
+            <path
+              fill-rule="evenodd"
+              d="M8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"
+            />
+          </svg>
+        </a> -->
+      </div>
+      <a href="#" class="user">
+       <img src="img/user.png"  alt="photo" class="user-avatar">
+      </a>
+      <!-- /.user -->
+    </header>
+  </body>
+</html>
